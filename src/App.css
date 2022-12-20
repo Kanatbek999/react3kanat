@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+input {
+    border-radius: 25px;
+    margin-left: 600px;
+    width: 300px;
+    height: 40px;
+    padding: 0px 10px;
+    border: none;
+    background-color: rgb(86, 255, 86);
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    
+}
+input:focus {
+    background-color: rgb(86, 125, 255);
+   
+    
+}
+h1 {
+    
+    font-family: sans-serif;
+    padding: 20px 0px;
+}
+
+
+button {
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(86, 125, 255);
+    color: aliceblue;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+button:focus {
+    background-color:  rgb(86, 255, 86);
+}
+
+.city {
+    margin-right: 10px;
+}
